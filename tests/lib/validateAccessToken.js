@@ -1,4 +1,4 @@
-var test = require('grape'),
+var test = require('tape'),
     pathToObjectUnderTest = '../../lib/validateAccessToken',
     timekeeper = require('timekeeper'),
     validateAccessToken = require(pathToObjectUnderTest);

@@ -1,4 +1,4 @@
-var test = require('grape'),
+var test = require('tape'),
     errors = require('../../lib/errors'),
     grantTypes = require('../../lib/grantTypes'),
     testError = 'boom!!!',

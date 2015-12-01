@@ -1,4 +1,4 @@
-var test = require('grape'),
+var test = require('tape'),
     pathToObjectUnderTest = '../../lib/grantTypes',
     grantTypes = require(pathToObjectUnderTest);
 

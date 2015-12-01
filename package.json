@@ -4,10 +4,11 @@
   "description": "A simple implementation of OAuth 2 providing async hooks to call to your own services",
   "main": "./index.js",
   "directories": {
-    "test": "test"
+    "test": "tests"
   },
   "scripts": {
-    "test": "node ./tests"
+    "test": "node ./tests",
+    "prepush": "jshint . && npm test"
   },
   "repository": {
     "type": "git",
@@ -20,15 +21,13 @@
   },
   "homepage": "https://github.com/MauriceButler/simple-oauth-server",
   "devDependencies": {
-    "grape": "^1.0.0",
-    "jshint": "^2.5.1",
+    "husky": "^0.10.2",
     "mockery": "^1.4.0",
-    "precommit-hook": "^1.0.2",
+    "tape": "^4.2.2",
     "timekeeper": "0.0.4"
   },
   "dependencies": {
-    "beeline": "^0.2.4",
-    "kgo": "^1.0.0",
+    "kgo": "^2.2.1",
     "mockery": "^1.4.0"
   }
 }

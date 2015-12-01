@@ -1,4 +1,4 @@
-var test = require('grape'),
+var test = require('tape'),
     mockery = require('mockery'),
     timekeeper = require('timekeeper'),
     pathToObjectUnderTest = '../',

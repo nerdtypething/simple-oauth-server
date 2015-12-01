@@ -1,4 +1,4 @@
-var test = require('grape'),
+var test = require('tape'),
     pathToObjectUnderTest = '../../lib/errors',
     errors = require(pathToObjectUnderTest),
     testState = { foo: 'bar'},
