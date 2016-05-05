@@ -4,6 +4,7 @@
   "description": "A simple implementation of OAuth 2 providing async hooks to call to your own services",
   "main": "./index.js",
   "directories": {
+    "example": "example",
     "test": "tests"
   },
   "scripts": {
@@ -12,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MauriceButler/simple-oauth-server.git"
+    "url": "git+https://github.com/MauriceButler/simple-oauth-server.git"
   },
   "author": "Maurice Butler <maurice.butler@gmail.com>",
   "license": "MIT",
@@ -30,5 +31,20 @@
   "dependencies": {
     "kgo": "^2.2.1",
     "mockery": "^1.4.0"
-  }
+  },
+  "keywords": [
+    "simple",
+    "oauth",
+    "server",
+    "client",
+    "credentials",
+    "grant",
+    "oauth2",
+    "CCG",
+    "implict",
+    "authorization",
+    "code",
+    "passport",
+    "authom"
+  ]
 }
