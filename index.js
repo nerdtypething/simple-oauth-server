@@ -35,6 +35,8 @@ AuthServer.prototype.isSupportedScope = function (scopes) {
 AuthServer.prototype.authorizeRequest = lib.authorizeRequest;
 AuthServer.prototype.getTokenData = lib.getTokenData;
 AuthServer.prototype.grantAccessToken = lib.grantAccessToken;
+AuthServer.prototype.grantRefreshedAccessToken = lib.grantRefreshedAccessToken;
 AuthServer.prototype.validateAccessToken = lib.validateAccessToken;
+AuthServer.prototype.validateRefreshToken = lib.validateRefreshToken
 
 module.exports = AuthServer;
