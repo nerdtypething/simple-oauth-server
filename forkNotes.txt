@@ -1,0 +1,5 @@
+Notes about the GitHub/Forks/simple-oauth-server repo:
+
+Remotes:
+1. Origin points to the forked copy on my nerdtypething GitHub repo.
+2. Upstream points to the original repo.
