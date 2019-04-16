@@ -1,5 +1,6 @@
 var lib = require('./lib');
 
+// expiresIn - minutes
 function AuthServer(clientService, tokenService, authorizationService, membershipService, expiresIn, supportedScopes) {
     var authServer = this;
 
@@ -16,6 +17,8 @@ function AuthServer(clientService, tokenService, authorizationService, membershi
 }
 
 AuthServer.prototype.getExpiresDate = function () {
+    // we multiply by 60000 because there are 60000 ms in one minute
+    // and Date is a representation of milliseconds since epoch
     return new Date(Date.now() + this.expiresIn * 60000);
 };
 
