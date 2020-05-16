@@ -1,7 +1,7 @@
 {
-  "name": "simple-oauth-server",
+  "name": "rsr-simple-oauth-server",
   "version": "1.0.6",
-  "description": "A simple implementation of OAuth 2 providing async hooks to call to your own services",
+  "description": "A Rousr fork of originally: A simple implementation of OAuth 2 providing async hooks to call to your own services",
   "main": "./index.js",
   "directories": {
     "example": "example",
